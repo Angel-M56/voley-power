@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Vóley Power</title>
+
+    <!-- ESTILOS CSS INTERNOS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        header {
+            background-color: #005fab;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        header .logo img {
+            width: 60px;
+            height: auto;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background-color: #003f7f;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .bienvenida, .destacados {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .bienvenida img, .destacados img {
+            width: 100%;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="index img/logo.jpg" alt="Logo Vóley Power">
+            <h1>Vóley Power</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Entrenamientos</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <h2>¡Bienvenido a Vóley Power!</h2>
+            <p>Somos un club deportivo enfocado en el entrenamiento y desarrollo de jugadores de vóley de todas las edades y niveles. Únete a nuestra comunidad y mejora tus habilidades dentro y fuera de la cancha.</p>
+            <img src="index img/voley 2.jpg" alt="Jugadores de vóley">
+        </section>
+
+        <section class="destacados">
+            <h3>¿Por qué elegirnos?</h3>
+            <ul>
+                <li>Entrenadores certificados y con experiencia</li>
+                <li>Categorías para niños, jóvenes y adultos</li>
+                <li>Participación en torneos locales y regionales</li>
+            </ul>
+            <img src="index img/voley 1.jpg" alt="Entrenamiento de vóley">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Club Vóley Power. Todos los derechos reservados.</p>
+        <p>Contacto: info@voleypower.com | Tel: 9876-5432</p>
+    </footer>
+
+</body>
+</html>
